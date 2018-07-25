@@ -1,5 +1,6 @@
 package com.deloitte.payroll.main;
 
+import java.util.Date;
 import java.util.Scanner;
 
 import com.deloitte.payroll.Accounts;
@@ -21,10 +22,12 @@ public class MainClass {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Employee type");
 		char Emp = sc.next().charAt(0);
+		sc.close();
 		
 		employee = hr.recruit(Emp);
 		accounts.processSalary(employee);
-			
+		
+
 	}
 
 }

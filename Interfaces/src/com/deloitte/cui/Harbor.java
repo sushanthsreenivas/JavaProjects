@@ -9,8 +9,6 @@ public class Harbor {
 		
 		harbor.givePermissionToLand(barge);
 		harbor.givePermissionToLand(sPlane);
-		
-
 	}
 	
 	private void givePermissionToLand(Sailor s) {
