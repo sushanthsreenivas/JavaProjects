@@ -14,6 +14,6 @@ public class MainClass {
 			System.arraycopy(arr1,i, arr2, i, 1 );
 			System.out.println(arr2[i]);
 		}
-	}
+	} 
 
 }
