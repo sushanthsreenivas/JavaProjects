@@ -1,14 +1,14 @@
 package com.deloitte.main.entities;
 
 public class User {
-	private int ID;
+	private long ID;
 	private String userName;
 	private String firstName;
 	private String lastName;
 	private String passwd;
 	private String status;
 	
-	public User(int ID,String userName,String firstName,String lastName,String passwd,String status)
+	public User(long ID,String userName,String firstName,String lastName,String passwd,String status)
 	{
 		this.ID=ID;
 		this.userName=userName;
@@ -19,7 +19,7 @@ public class User {
 		
 	}
 	
-	public int getID() {
+	public long getID() {
 		return ID;
 	}
 
