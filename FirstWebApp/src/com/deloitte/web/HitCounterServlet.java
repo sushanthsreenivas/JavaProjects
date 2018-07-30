@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class HitCounterServlet
  */
-@WebServlet("/hitcount")
+//@WebServlet("/hitcount")
 public class HitCounterServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private static int counter;
@@ -49,6 +49,7 @@ public class HitCounterServlet extends HttpServlet {
 			out.println(header+": "+request.getHeader(header)+"<br/>");
 		}
 		
+		out.println(getServletConfig().getInitParameter("email"));
 		out.println("<html>");
 		out.println("<html>");
 	}

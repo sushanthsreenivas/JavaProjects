@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
   <display-name>FirstWebApp</display-name>
+  
+  <servlet>
+  		<servlet-name>THIS</servlet-name>
+  		<servlet-class>com.deloitte.web.HitCounterServlet</servlet-class>
+  		<init-param>
+  		<param-name>email</param-name>
+  		<param-value>abc@abcd.com</param-value>
+  		</init-param>
+  </servlet>
+  
+  <servlet-mapping>
+		<servlet-name>THIS</servlet-name>  
+  		<url-pattern>/hit</url-pattern>
+  
+  </servlet-mapping>
+  
+  
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.htm</welcome-file>
