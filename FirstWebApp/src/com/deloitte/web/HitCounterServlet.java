@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Enumeration;
 
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -48,8 +50,12 @@ public class HitCounterServlet extends HttpServlet {
 			header=headerName.nextElement();
 			out.println(header+": "+request.getHeader(header)+"<br/>");
 		}
+		ServletConfig config=getServletConfig();
+		out.println(config.getInitParameter("email"));
 		
-		out.println(getServletConfig().getInitParameter("email"));
+		ServletContext context = getServletContext();
+		out.println(context.getInitParameter("contact us"));
+		
 		out.println("<html>");
 		out.println("<html>");
 	}
