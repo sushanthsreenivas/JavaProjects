@@ -4,6 +4,13 @@ public class Point {
 		private int x;
 		private int y;
 		
+		Point(){
+			System.out.println("Point Instantiated");
+		}
+		
+		public void init() {
+			System.out.println("Initialized");
+		}
 		public int getX() {
 			return x;
 		}
@@ -17,9 +24,16 @@ public class Point {
 			this.y = y;
 		}
 		
+		public void destroy() {
+			System.out.println("Destroyed");
+		}
+		
+		
 		@Override
 		public String toString() {
 		
 		return x+","+y;
 		}
+		
+		
 }
