@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate_required"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate_log4j"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate_slf4j"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate_tools"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate_xalan"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate_jpa"/>
+	<classpathentry kind="lib" path="C:/Softwares/Hibernate/tools/bin/xerces2taglets.jar"/>
+	<classpathentry kind="lib" path="C:/Softwares/Hibernate/tools/bin/xjavac.jar"/>
+	<classpathentry kind="lib" path="C:/Softwares/Hibernate/xalan-j_2_7_1/tools/ant.jar"/>
+	<classpathentry kind="lib" path="C:/Softwares/Hibernate/xalan-j_2_7_1/tools/java_cup.jar"/>
+	<classpathentry kind="lib" path="C:/Softwares/Hibernate/xalan-j_2_7_1/tools/JLex.jar"/>
+	<classpathentry kind="lib" path="C:/Softwares/Hibernate/xalan-j_2_7_1/tools/stylebook-1.0-b3_xalan-2.jar"/>
+	<classpathentry kind="lib" path="C:/Softwares/Hibernate/xalan-j_2_7_1/tools/xalan2jdoc.jar"/>
+	<classpathentry kind="lib" path="C:/Softwares/Hibernate/xalan-j_2_7_1/tools/xalan2jtaglet.jar"/>
+	<classpathentry kind="lib" path="src/lib/ojdbc6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
