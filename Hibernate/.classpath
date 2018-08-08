@@ -6,6 +6,8 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate_slf4j"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate_tools"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate_xalan"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/HIbernate"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/HIbernate1"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate_jpa"/>
 	<classpathentry kind="lib" path="C:/Softwares/Hibernate/tools/bin/xerces2taglets.jar"/>
